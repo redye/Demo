@@ -114,6 +114,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		527D33401C76AE350006E971 /* YHKit */ = {
+			isa = PBXGroup;
+			children = (
+				851E86631C4CB05200FE6220 /* YHKit.h */,
+				851E86641C4CB09E00FE6220 /* YHKitMacro.h */,
+				85285EE81C4DDBB100701743 /* Foundation */,
+				851E865F1C4C9A3500FE6220 /* UIKit */,
+			);
+			name = YHKit;
+			sourceTree = "<group>";
+		};
 		851E865F1C4C9A3500FE6220 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,10 +213,7 @@
 		85573CAE1C48F5340067AA2B /* QQTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				851E86631C4CB05200FE6220 /* YHKit.h */,
-				851E86641C4CB09E00FE6220 /* YHKitMacro.h */,
-				85285EE81C4DDBB100701743 /* Foundation */,
-				851E865F1C4C9A3500FE6220 /* UIKit */,
+				527D33401C76AE350006E971 /* YHKit */,
 				85573CB21C48F5340067AA2B /* AppDelegate.h */,
 				85573CB31C48F5340067AA2B /* AppDelegate.m */,
 				85573CB51C48F5340067AA2B /* QQMessageViewController.h */,
