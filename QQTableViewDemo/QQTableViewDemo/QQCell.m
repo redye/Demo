@@ -482,7 +482,6 @@ typedef void(^QQCellButtonDidClickedBlock)(QQCellSlideType slideType);
 
 - (void)setType:(QQCellType)type {
     _type = type;
-//    self.qqContentView.ty
 }
 
 @end

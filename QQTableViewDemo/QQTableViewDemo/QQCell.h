@@ -45,7 +45,7 @@ typedef void(^CellDidOpenBlock)(QQCell *cell);
 @property (nonatomic, assign) QQCellType         type;
 @property (nonatomic, assign) QQCellSlideType    slideType;
 
-@property (nonatomic, copy) CellDidChangeStateBlock changeStateBlock;
+@property (nonatomic, copy) CellDidChangeStateBlock  changeStateBlock;
 @property (nonatomic, copy) CellDidCloseBlock        closeBlock;
 @property (nonatomic, copy) CellDidOpenBlock         openBlock;
 
