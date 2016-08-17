@@ -9,7 +9,6 @@
 #import "YHProgressView.h"
 
 #define kProgressViewHeight 5
-#define kProgressViewAnimationDuration 1
 
 @interface YHProgressView ()
 @property (nonatomic, strong) UIView *contentView;

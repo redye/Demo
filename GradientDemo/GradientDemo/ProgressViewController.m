@@ -12,6 +12,7 @@
 @interface ProgressViewController ()
 @property (nonatomic, strong) YHProgressView *progressView;
 @property (weak, nonatomic) IBOutlet UIProgressView *progressView2;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
 @property (assign, nonatomic) BOOL animated;
 @end
 
@@ -42,6 +43,7 @@
     }
     [self.progressView setProgress:value animated:_animated];
     [self.progressView2 setProgress:value /100.0 animated:_animated];
+    self.slider.value = value / 100.0;
 }
 
 - (IBAction)animatedChanged:(UIButton *)sender {
@@ -54,7 +56,5 @@
     
     
 }
-
-
 
 @end
